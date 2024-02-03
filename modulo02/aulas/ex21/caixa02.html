@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            font-family: arial;
+            margin: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.274);
+            
+          
+        }
+
+        .container{
+           display: flex;
+           height: 400px;
+           width: 600px;
+           margin: auto;
+           margin-top: auto;
+            border-radius: 20px;
+            background-color: rgb(255, 255, 255);
+           
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.445);
+        }
+
+        div#left{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            height: 100%;
+            background-color: rgb(0, 26, 255);
+            border-radius: 20px 0px 0px 20px;
+            
+           
+        }
+
+        div#right{
+           
+            width: 50%;
+            height: 100%;
+       
+        }
+        .elementos{
+            display: contents;
+            
+        }
+
+        h1#titulo{
+            text-align: center;
+            margin: 10px;
+            padding-top: 50px;
+        }
+
+        input{
+            display: block;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+        label{
+            display: block;
+            text-align: center;
+            
+
+        }
+      div#button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+        button#button{
+            color: white;
+            background-color: rgb(255, 72, 0);
+            border-radius: 10px;
+            padding: 5px 15px 5px 15px;
+            border: none;
+            width: 180px;
+        }
+        img{
+            margin: auto;
+            width: 90%;
+            
+        }
+
+        button#button:hover{
+            background-color: rgb(110, 110, 110);
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div id="left">
+            <img src="img/login.png" alt="">
+        </div>
+
+        <div id="right">
+            <h1 id="titulo">Entrar</h1>
+            <div class="elementos">
+                <label for="usuario">Usuário</label>
+                <input type="text" name="" id="usuario">
+                <label for="senha">Senha</label>
+                <input type="password" name="" id="senha">
+            </div>
+            <div id="button">
+                <button id="button">Enviar</button>
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

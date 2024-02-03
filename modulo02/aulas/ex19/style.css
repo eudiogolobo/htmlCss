@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(90, 0, 0);
+    color: white;
+
+}
+
+h1{
+    color: rgb(114, 114, 114);
+}
+
+h1#principal{
+    text-align: center;
+    color: yellow;
+
+}
+
+p#sub{
+    color: aqua;
+}
+
+/*
+-----------------
+ class . 
+ id    #
+-----------------
+*/
+
+.html{
+    color: rgb(0, 83, 0);
+}
+
+.css{
+    color: rgb(255, 187, 0);
+}
+
+.destaque{
+    background-color: rgba(255, 255, 0, 0.76);
+}

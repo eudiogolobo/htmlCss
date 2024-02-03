@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex11</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Imagem responsiva</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/P.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="img/M.png" type="image/png">
+
+        <img src="img/G.png" alt="">
+    
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Apredendo a reproduzir áudio em HTML5.</p>
+    <audio src="midia/audioDiogo.ogg" controls autoplay></audio>
+
+    <!--   <audio preload="metadata" controls autoplay loop>
+            <source src="midia/audioDiogo.mp3" type="audio/mpeg">
+            <source src="midia/audioDiogo.ogg" type="audio/ogg">
+            <source src="midia/audioDiogo.wav" type="audio/wav">
+            <p>Infelizmente seu navegador não consegue reproduzir isso.</p>
+        </audio>
+    --> 
+
+</body>
+</html>
